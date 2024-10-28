@@ -5,11 +5,11 @@ public class Corsa {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         System.out.println("inserisci la lunghezza massima in metri: ");
-        int fine= scanner.scanner.nextInt();
+        int fine= scanner.nextInt();
         scanner.nextLine();
         System.out.println("Quanti cavalli vuoi inserie: ");
-        int numCav = nextInt();
+        int numCav = scanner.nextInt();
         scanner.nextLine();
-        List<Cavallo> cavalli = new ArreyList<>();
+        List<Cavallo> cavalli = new ArrayList<>();
     }
 }
