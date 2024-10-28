@@ -17,7 +17,7 @@ public void run(){
         if (distanza> fine){
             distanza = fine;
         }
-        System.out.println(nome + "ha corso" + distanza + "metri");
+        System.out.println(nome + " ha corso " + distanza + " metri ");
     try{
         Thread.sleep(500);
     }
@@ -25,6 +25,6 @@ public void run(){
         e.printStackTrace();
     }
     }
-    System.out.println(nome + "ha finito la gara");
+    System.out.println(nome + " ha finito la gara ");
 }
 }
